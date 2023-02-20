@@ -44,7 +44,7 @@ ____
   https://www.tessares.net/is-mptcp-less-secure-than-tcp/
 ____
 Splitting the traffic across two TCP connections increases the number of attack vectors from one to two but significantly decreases the chances of an attacker obtaining the whole exchange. MPTCP is designed to make it impossible for an attacker to join an existing MPTCP connection. TCP should always be forced to use TLS and this is also recommended for MPTCP.
- +
+
 From a security point of view, MPTCP is suitable for any corporate environment where TCP is already accepted.
 ____
 
