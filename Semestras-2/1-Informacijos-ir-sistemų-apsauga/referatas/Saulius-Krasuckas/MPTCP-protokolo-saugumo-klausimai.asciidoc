@@ -1,6 +1,8 @@
 == MPTCP protokolo saugumo klausimai
 
 
+**Understanding Multipath TCP: High availability for endpoints and the networking highway of the future** +
+
 * **cross-path data fragmentation**: +
   https://www.redhat.com/en/blog/understanding-multipath-tcp-networking-highway-future
 ____
@@ -8,7 +10,8 @@ Multipath routing causes cross-path data fragmentation. From a security perspect
 ____
 
 
-* **the old and the new approaches**
+* **the old and the new approaches to protect the increasing number of infrastructure perimeters**: +
+  https://www.redhat.com/en/blog/understanding-multipath-tcp-networking-highway-future#:~:text=So%20does%20that,and%20public%20cloud.
 ____
 So does that make Firewalls useless?  No, of course not. Perimeter and inline security solutions, like Firewalls and Intrusion Detection Systems, are not dead.  They have and always will perform important duties for protecting perimeters.  Perimeters are more numerous and now include an organization's cloud infrastructure. But, security approaches like Zero Trust and the Cloud Security Alliance's https://cloudsecurityalliance.org/research/working-groups/software-defined-perimeter-and-zero-trust/[Software Defined Perimeter (SDP)] provide a new approach that applies to the world where end-user devices are everywhere and not restricted to office only use and applications that are also everywhere, ranging from on-premise to private cloud and public cloud.
 ____
